@@ -1,14 +1,18 @@
  
 /* start css.sty */
 .cmr-10x-x-109{}
-.cmbx-12{font-size:109%; font-weight: bold;}
+/*.cmbx-12{font-size:109%; font-weight: bold;}*/
+/* original above */
+.cmbx-12{font-size:112%; font-weight: bold;}
 .cmbx-12{ font-weight: bold;}
 .cmtt-10x-x-109{font-family: monospace,monospace;}
 .cmbx-10x-x-109{ font-weight: bold;}
 .cmbx-10x-x-109{ font-weight: bold;}
 .cmcsc-10x-x-109{}
-.cmti-10x-x-109{ font-style: italic;}
-.small-caps{font-variant: small-caps; }
+/* above was originally empty brackets */
+.cmti-10x-x-109{font-size:104%; font-style: italic;}
+/* original above has been changed to bigger size */
+.small-caps{font-size:140%; font-variant: small-caps; }
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
 p + p{margin-top:1em;}
